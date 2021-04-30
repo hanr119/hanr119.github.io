@@ -9,14 +9,10 @@ body {
     height: 100%;
     background: lightsteelblue;
     background-image: url("./assets/vaporwave.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-ul {
-    list-style-type: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .home {
@@ -54,23 +50,15 @@ ul {
     100% { background-position: 0% 50% }
   }
 
-.nav-links {
+.container {
+    background-color: #ee85b6E6;
+    padding: 50px;
+    margin: 20px;
+    margin-bottom: 100px;
     color: white;
     font-size: 4vw;
     text-decoration: none;
     font-family: 'Antonio', sans-serif;
-}
-
-.studio {
-    background-color: #ee85b6E6;
-    padding: 50px;
-    margin: 20px;
-}
-
-.lab {
-    background-color: #6cdba9E6;
-    padding: 50px;
-    margin: 20px;
 }
 
 .about {
