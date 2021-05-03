@@ -61,16 +61,34 @@ ul {
     font-family: 'Antonio', sans-serif;
 }
 
+.links{
+    opacity: 0;
+}
+
+.links.mouseover{
+    opacity: 1;
+}
+
+.links-two{
+    opacity: 0;
+}
+
+.links-two.mouseover{
+    opacity: 1;
+}
+
 .studio {
     background-color: #ee85b6E6;
     padding: 50px;
     margin: 20px;
+    border: 3px solid white;
 }
 
 .lab {
     background-color: #6cdba9E6;
     padding: 50px;
     margin: 20px;
+    border: 3px solid white;
 }
 
 .about {
@@ -81,4 +99,48 @@ ul {
     bottom: 10px;
     font-size: 50px;
     color: #fd008f;
+}
+
+.box-one {
+    opacity: 1;
+    position: relative;
+}
+
+.box-two {
+    opacity: 1;
+    position: relative;
+}
+
+.studio-label {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roose Sally";
+    color: white;
+    font-size: 10vw;
+    z-index: 1000;
+    display: inline;
+}
+
+.studio-label.active {
+    display: none;
+}
+
+.lab-label {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roose Sally";
+    color: white;
+    font-size: 10vw;
+    z-index: 1000;
+    display: inline;
+}
+
+.lab-label.active {
+    display: none;
 }
